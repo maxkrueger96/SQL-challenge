@@ -19,7 +19,7 @@ create table departments (
 );
 
 --next make employees as it has many dependents and depends on titles
-
+			
 create table employees (
 	employee_no INT,
 	title_id VARCHAR(10),
